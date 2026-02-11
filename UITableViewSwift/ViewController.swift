@@ -29,6 +29,7 @@ class MyViewController: UIViewController, UITableViewDataSource, UITableViewDele
         // second set the 'brain' and the 'manager'
         myTableView.dataSource = self
         myTableView.delegate = self
+        
     }
 
     // Data Source     how many rows
